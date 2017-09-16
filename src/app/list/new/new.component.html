@@ -1,0 +1,14 @@
+<form #creationForm='ngForm' (submit)='addProduct()'>
+  <fieldset>
+    <legend>Create a New Product</legend>
+    <label for="titleField">Title</label>
+    <input type="text" id="titleField" name="titleField" [(ngModel)]='newProduct.title'
+      required minlength="4">
+    <label for="priceField">Price</label>
+    <input type="text" id="priceField" name="priceField" [(ngModel)]='newProduct.price'
+      required>
+    <label for="imageUrlField">Image Url</label>
+    <input type="text" id="imageUrlField" name="imageUrlField" [(ngModel)]='newProduct.imageUrl'>
+    <button [disabled]='!creationForm.form.valid' type="submit">CREATE</button>
+  </fieldset>
+</form>

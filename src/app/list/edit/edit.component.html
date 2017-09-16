@@ -1,0 +1,15 @@
+<form #editForm='ngForm' (submit)='editProduct()'>
+  <fieldset>
+    <legend>Edit Product</legend>
+    <label for="titleField">Title</label>
+    <input type="text" id="titleField" name="titleField" [(ngModel)]='thisTitle'
+      required minlength="4">
+    <label for="priceField">Price</label>
+    <input type="text" id="priceField" name="priceField" [(ngModel)]='thisPrice'
+      required>
+    <label for="imageUrlField">Image Url</label>
+    <input type="text" id="imageUrlField" name="imageUrlField" [(ngModel)]='thisImageUrl'>
+    <button type="button" (click)='deleteThis(thisId)'>Delete</button>
+    <button [disabled]='!editForm.form.valid' type="submit">UPDATE</button>
+  </fieldset>
+</form>

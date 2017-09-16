@@ -1,0 +1,28 @@
+img{
+  height: 130px;
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+.product{
+  display: inline-block;
+  height: 300px;
+  width: 200px;
+  border: 2px solid black;
+  padding: 30px;
+  margin: 20px;
+  vertical-align: top;
+}
+button{
+  display: block;
+  width: 150px;
+  margin: 10px auto;
+}
+.edit{
+  background-color: #FF9900;
+  border-color: black;
+}
+.delete{
+  background-color: #CF2B27;
+  border-color: black;
+}

@@ -1,0 +1,11 @@
+<div id="wrapper">
+  <h1>{{title}}</h1>
+  <ul>
+    <li><a [routerLink]="['/home']">Home</a></li>
+    <li><a [routerLink]="['/products']">Product List</a></li>
+    <li><a [routerLink]="['/products','new']">Product Creation</a></li>
+  </ul>
+  <div id="component">
+    <router-outlet></router-outlet>
+  </div>
+</div>
