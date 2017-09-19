@@ -4,7 +4,7 @@ This project uses Angular 4 that simulates a simple product CRUD listing. A user
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
 
-![alt text](https://s3.us-east-2.amazonaws.com/qadamo-images/PPM.png "Example Image")
+![Example Image](https://s3.us-east-2.amazonaws.com/qadamo-images/PPM.png "Example Image")
 
 ## Development server
 
