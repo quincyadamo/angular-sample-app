@@ -2,7 +2,7 @@
 
 This project uses Angular 4 that simulates a simple product CRUD listing. A user may view a home page, the product listing page, product creation page (with validations), and product edit page (with validations). 
 
-![Alt text](https://s3.us-east-2.amazonaws.com/qadamo-images/PPM.png)
+![alt text](https://s3.us-east-2.amazonaws.com/qadamo-images/PPM.png "Example Image")
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
 
